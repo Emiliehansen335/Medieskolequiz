@@ -1,0 +1,120 @@
+.container {
+  margin-top: 5vh;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h3 {
+    color: black;
+    font-size: 30px;
+    margin: 20px;
+  }
+}
+
+.heading {
+  margin-bottom: 20px;
+  font-size: 25px;
+  color: #255d44;
+  text-shadow: #255d4494 1px 1px 4px;
+}
+
+.form {
+  max-width: 400px;
+  margin: 3em auto;
+  padding: 2em 1.5em;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(126, 201, 126, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  font-family: "Josefin Slab", serif;
+}
+
+.formGroup {
+  margin-bottom: 15px;
+}
+
+.label {
+  font-size: 1.1em;
+  color: #3a5d3a;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+}
+
+.input {
+  width: 100%;
+  padding: 0.7em 1em;
+  border: 1.5px solid #b5d6b2;
+  border-radius: 8px;
+  font-size: 1em;
+  background: #f6fbf5;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  margin-top: 0.3em;
+}
+
+.input:focus {
+  border-color: #7ec97e;
+  box-shadow: 0 0 0 2px #e3f7e3;
+  outline: none;
+}
+
+.button {
+  width: 100%;
+  padding: 12px 0;
+  background: linear-gradient(90deg, #7ec97e 0%, #b5d6b2 100%);
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  box-shadow: 0 2px 8px rgba(126, 201, 126, 0.1);
+  transition: background 0.2s, box-shadow 0.2s,
+    transform 0.15s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.button:hover {
+  background: linear-gradient(90deg, #6bb86b 0%, #a3cfa3 100%);
+  box-shadow: 0 4px 16px rgba(126, 201, 126, 0.18);
+  transform: translateY(-2px) scale(1.03);
+}
+
+.error {
+  color: #c0392b;
+  background: #fbeeea;
+  border-radius: 6px;
+  padding: 0.5em 1em;
+  margin-top: -1em;
+  font-size: 1em;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .heading {
+    font-size: 35px;
+  }
+
+  .button {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .form {
+    padding: 1em 0.5em;
+    border-radius: 10px;
+    max-width: 98vw;
+  }
+  .label {
+    font-size: 1em;
+  }
+  .button {
+    font-size: 1em;
+    padding: 10px 0;
+  }
+}

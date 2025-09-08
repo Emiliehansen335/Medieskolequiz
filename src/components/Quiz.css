@@ -1,0 +1,118 @@
+.quiz-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.quiz-header h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.quiz-header p {
+  font-size: 14px;
+  color: #666;
+}
+
+.quiz-question {
+  margin-bottom: 20px;
+}
+
+.quiz-question p {
+  font-size: 14px;
+  color: #666;
+}
+
+.quiz-question h3 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.quiz-options {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.option {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: white;
+  transition: background-color 0.3s ease;
+}
+
+.option.correct {
+  background-color: lightgreen;
+}
+
+.option.incorrect {
+  background-color: lightcoral;
+}
+
+.option:hover {
+  background-color: #f0f0f0;
+}
+
+.quiz-footer {
+  text-align: right;
+}
+
+.next-button {
+  background-color: #007bff;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.next-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+
+.option {
+  list-style-type: none;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background-color: white; /* Standard baggrund */
+  transition: background-color 0.3s ease;
+}
+
+.option.correct {
+  background-color: lightgreen; /* Grøn baggrund for korrekt svar */
+}
+
+.option.incorrect {
+  background-color: lightcoral; /* Rød baggrund for forkert svar */
+}
+
+.option:hover {
+  background-color: #f0f0f0; /* Hover-effekt */
+}
+
