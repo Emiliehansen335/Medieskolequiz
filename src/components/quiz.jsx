@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useFetchQuestions } from "../hooks/useFetchQuestions";
 import QuestionForm from "./QuestionForm";
+import "./Quiz.css";
 
 const API_URL = "https://quiz-tpjgk.ondigitalocean.app";
 

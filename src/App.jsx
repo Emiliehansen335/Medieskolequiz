@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
-import "./Quiz.css";
 import "./index.css";
+import "./quiz.css";
 import Quiz from "./components/quiz";
 import Login from "./components/login/Login";
 import { useAuthContext } from "./components/context/AuthContext";
